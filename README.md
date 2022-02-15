@@ -2,7 +2,7 @@
 
 **A web app that gives you suggestions for your wordle games!**
 
-[Link]:(https://nyuriumuri.github.io/WordleGuesser/)
+[Link](https://nyuriumuri.github.io/WordleGuesser/)
 
 ## How To use:
 
