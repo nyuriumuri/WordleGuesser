@@ -13,6 +13,13 @@
     border: none;
     cursor: pointer;
 }
+@media (width <= 420px) { 
+    .square{
+        height: 2em;
+        width: 2em;
+        font: size 24px;
+    }  
+ }
 
 .break{
 flex-basis: 100%;
@@ -21,6 +28,16 @@ height: 0;
 .circle{
     border-radius: 100%;
 }
+
+@media (width <= 420px) { 
+    .circle{
+        height: 3em;
+        width: 3em;
+        margin: 0.5em;
+        margin-top: 4em;
+    }
+ }
+
 .correct{
     background-color: #57ac57;
 }
@@ -47,3 +64,10 @@ height: 0;
     flex-flow:row;
     flex-wrap: wrap;
 }
+
+@media (width <= 420px) { 
+    .squarerow{
+       gap: 0.5em;
+       /* row-gap: 5em; */
+    }  
+ }
